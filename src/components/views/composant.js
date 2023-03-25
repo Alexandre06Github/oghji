@@ -1,15 +1,15 @@
 import React from "react";
 
-function Composant() {
-return (
+// function Composant() {
+// return (
 
-<button>Calendrier</button>;
-<button>Domotique</button>
-<button></button>
+// {/* <button>Calendrier</button>;
+// <button>Domotique</button>
+// <button></button> */}
 
 
 
-);
-}
+// );
+// }
 
-export default Composant;
+// export default Composant;
