@@ -1,0 +1,47 @@
+.boutonCalendrier {
+    padding: 5vw;
+    background-color: rgb(244, 67, 54);
+    width: 25%;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    font-size: 50px;
+    border-radius: 50px;
+}
+
+.boutonDomotique {
+    padding: 5vw;
+    background-color: rgb(1, 169, 244);
+    width: 25%;
+    font-size: 50px;
+    border-radius: 50px;
+}
+
+.boutonTarifHeure {
+    padding: 5vw;
+    background-color: rgb(255, 152, 0);
+    width: 25%;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    font-size: 50px;
+    border-radius: 50px;
+}
+
+.boutonConso {
+    padding: 5vw;
+    background-color: rgb(76, 175, 80);
+    width: 25%;
+    font-size: 50px;
+    border-radius: 50px;
+}
+
+.linkStyle {
+    text-decoration: none;
+    color: white;
+}
+
+.boutonCalendrier,
+.boutonDomotique,
+.boutonTarifHeure,
+.boutonConso {
+  cursor: pointer;
+}
