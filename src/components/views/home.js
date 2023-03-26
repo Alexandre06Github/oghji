@@ -4,9 +4,13 @@ import Menu from "../assets/menu";
 import Button from "../button";
 import Gauge from "../Gauge";
 
+
 export default function Home() {
+
   return (
+  
     <div>
+      
       <Menu />
       <Button/>
       <Composant />

@@ -51,6 +51,7 @@
     .boutonTarifHeure,
     .boutonConso {
     cursor: pointer;
+    box-shadow: 1px 1px 2px 3px rgba(20, 20, 20, 0.4);
     }
     
     .boutonCalendrier:hover,
@@ -58,4 +59,11 @@
     .boutonTarifHeure:hover,
     .boutonConso:hover {
     background-color: #62bb41;
+
     }
+
+    body {
+        background-image: url('https://img.freepik.com/vecteurs-libre/abstrait-vagues-lueur-illustration-vectorielle-fond-vert_1182-2457.jpg?size=626&ext=jpg&ga=GA1.2.1195889565.1674743359&semt=ais');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
