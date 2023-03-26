@@ -3,9 +3,9 @@
     position: absolute;
     width: 112%;
     margin-top: 24vh;
-}
-
-.boutonCalendrier {
+    }
+    
+    .boutonCalendrier {
     padding: 4vw;
     background-color:#F0F0F0;
     width: 21%;
@@ -13,17 +13,17 @@
     margin-bottom: 2vw;
     font-size: 50px;
     border-radius: 50px;
-}
-
-.boutonDomotique {
+    }
+    
+    .boutonDomotique {
     padding: 4vw;
     background-color: #F0F0F0;
     width: 21%;
     font-size: 50px;
     border-radius: 50px;
-}
-
-.boutonTarifHeure {
+    }
+    
+    .boutonTarifHeure {
     padding: 4vw;
     background-color:#F0F0F0;
     width: 21%;
@@ -31,24 +31,31 @@
     margin-bottom: 2vw;
     font-size: 50px;
     border-radius: 50px;
-}
-
-.boutonConso {
+    }
+    
+    .boutonConso {
     padding: 4vw;
     background-color:#F0F0F0;
     width: 21%;
     font-size: 50px;
     border-radius: 50px;
-}
-
-.linkStyle {
+    }
+    
+    .linkStyle {
     text-decoration: none;
     color: white;
-}
-
-.boutonCalendrier,
-.boutonDomotique,
-.boutonTarifHeure,
-.boutonConso {
-  cursor: pointer;
-}
+    }
+    
+    .boutonCalendrier,
+    .boutonDomotique,
+    .boutonTarifHeure,
+    .boutonConso {
+    cursor: pointer;
+    }
+    
+    .boutonCalendrier:hover,
+    .boutonDomotique:hover,
+    .boutonTarifHeure:hover,
+    .boutonConso:hover {
+    background-color: #62bb41;
+    }
