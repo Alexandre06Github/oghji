@@ -1,112 +1,125 @@
 .allBlock {
-    top: 0;
-    position: absolute;
-    width: 112%;
-    margin-top: 30vh;
-    margin-left: 17vw;
+  top: 0;
+  position: absolute;
+  width: 112%;
+  margin-top: 30vh;
+  margin-left: 17vw;
 }
 
 .boutonCalendrier {
-    padding: 4vw;
-    background-color: #F0F0F0;
-    width: 21%;
-    margin-right: 2vw;
-    margin-bottom: 2vw;
-    font-size: 30px;
-    border-radius: 50px;
+  padding: 4vw;
+  background-color: #f0f0f0;
+  width: 21%;
+  margin-right: 2vw;
+  margin-bottom: 2vw;
+  font-size: 30px;
+  border-radius: 50px;
 }
 
 .boutonDomotique {
-    padding: 4vw;
-    background-color: #F0F0F0;
-    width: 21%;
-    font-size: 30px;
-    border-radius: 50px;
-    margin-right: 2vw;
-    margin-bottom: 2vw;
+  padding: 4vw;
+  background-color: #f0f0f0;
+  width: 21%;
+  font-size: 30px;
+  border-radius: 50px;
+  margin-right: 2vw;
+  margin-bottom: 2vw;
 }
 
 .boutonTarifHeure {
-    padding: 4vw;
-    background-color: #F0F0F0;
-    width: 21%;
-    margin-right: 2vw;
-    margin-bottom: 2vw;
-    font-size: 30px;
-    border-radius: 50px;
+  padding: 4vw;
+  background-color: #f0f0f0;
+  width: 21%;
+  margin-right: 2vw;
+  margin-bottom: 2vw;
+  font-size: 30px;
+  border-radius: 50px;
 }
 
 .boutonConso {
-    padding: 4vw;
-    background-color: #F0F0F0;
-    width: 21%;
-    font-size: 30px;
-    border-radius: 50px;
-    margin-right: 2vw;
-    margin-bottom: 2vw;
+  padding: 4vw;
+  background-color: #f0f0f0;
+  width: 21%;
+  font-size: 30px;
+  border-radius: 50px;
+  margin-right: 2vw;
+  margin-bottom: 2vw;
 }
 
 .linkStyle {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .boutonCalendrier,
 .boutonDomotique,
 .boutonTarifHeure,
 .boutonConso {
-    cursor: pointer;
-    box-shadow: 1px 1px 2px 3px rgba(20, 20, 20, 0.4);
+  cursor: pointer;
+  box-shadow: 1px 1px 2px 3px rgba(20, 20, 20, 0.4);
 }
 
 .boutonCalendrier:hover,
 .boutonDomotique:hover,
 .boutonTarifHeure:hover,
 .boutonConso:hover {
-    background-color: #8ae069;
-
+  background-color: #8ae069;
 }
 
 body {
-    background-image: url('https://img.freepik.com/vecteurs-libre/abstrait-vagues-lueur-illustration-vectorielle-fond-vert_1182-2457.jpg?size=626&ext=jpg&ga=GA1.2.1195889565.1674743359&semt=ais');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("https://img.freepik.com/vecteurs-libre/abstrait-vagues-lueur-illustration-vectorielle-fond-vert_1182-2457.jpg?size=626&ext=jpg&ga=GA1.2.1195889565.1674743359&semt=ais");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .room {
-    display: flex;
-    position: absolute;
-    top: 3vh;
-    left: 25vw;
+  display: flex;
+  position: absolute;
+  top: 3vh;
+  left: 25vw;
 }
 
 .room button {
-    margin-right: 80px;
+  margin-right: 80px;
 }
 
 .add {
-    display: flex;
-    position: absolute;
-    top: 3vh;
-    left: 90vw;
+  display: flex;
+  position: absolute;
+  top: 3vh;
+  left: 90vw;
 }
 
 #iconeTemperature {
-    position: absolute;
-    top: 0;
-    margin-top: 7vh;
-    margin-left: 12vw;
+  position: absolute;
+  top: 0;
+  margin-top: 7vh;
+  margin-left: 12vw;
 }
 
 #titleTemperature {
-    text-align: center;
-    font-size: 2em;
+  text-align: center;
+  font-size: 2em;
 }
 
 .containerTemperature {
-    width: 20vw;
-    text-align: left;
-    top: 0;
-    position: absolute;
-
+  width: 20vw;
+  text-align: left;
+  top: 0;
+  position: absolute;
+}
+.bar {
+  position: absolute;
+  width: 30vw;
+  top: 67vh;
+  left: 12vw;
+}
+.text {
+  position: absolute;
+  width: 30vw;
+  top: 78vh;
+  left: 27.9vw;
+  color: #8ae069;
+  font-size: 1.5em;
+  font-weight: bold;
 }
