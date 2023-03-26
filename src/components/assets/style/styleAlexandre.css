@@ -3,14 +3,14 @@
     position: absolute;
     width: 112%;
     margin-top: 24vh;
+    margin-left: 17vw;
     }
     
     .boutonCalendrier {
     padding: 4vw;
     background-color:#F0F0F0;
     width: 21%;
-    margin-right: 2vw;
-    margin-left: 10vw;
+    margin-right: 2vw; 
     margin-bottom: 2vw;
     font-size: 30px;
     border-radius: 50px;
@@ -22,8 +22,7 @@
     width: 21%;
     font-size: 30px;
     border-radius: 50px;
-    margin-right: 2vw;
-    margin-left: 10vw;
+    margin-right: 2vw;  
     margin-bottom: 2vw;
     }
     
@@ -32,7 +31,6 @@
     background-color:#F0F0F0;
     width: 21%;
     margin-right: 2vw;
-    margin-left: 10vw;
     margin-bottom: 2vw;
     font-size: 30px;
     border-radius: 50px;
@@ -45,7 +43,6 @@
     font-size: 30px;
     border-radius: 50px;
     margin-right: 2vw;
-    margin-left: 10vw;
     margin-bottom: 2vw;
     }
     
