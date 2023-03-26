@@ -1,7 +1,14 @@
+.allBlock {
+    top: 0;
+    position: absolute;
+    width: 112%;
+    margin-top: 24vh;
+}
+
 .boutonCalendrier {
-    padding: 5vw;
+    padding: 4vw;
     background-color: rgb(244, 67, 54);
-    width: 25%;
+    width: 21%;
     margin-right: 2vw;
     margin-bottom: 2vw;
     font-size: 50px;
@@ -9,17 +16,17 @@
 }
 
 .boutonDomotique {
-    padding: 5vw;
+    padding: 4vw;
     background-color: rgb(1, 169, 244);
-    width: 25%;
+    width: 21%;
     font-size: 50px;
     border-radius: 50px;
 }
 
 .boutonTarifHeure {
-    padding: 5vw;
+    padding: 4vw;
     background-color: rgb(255, 152, 0);
-    width: 25%;
+    width: 21%;
     margin-right: 2vw;
     margin-bottom: 2vw;
     font-size: 50px;
@@ -27,9 +34,9 @@
 }
 
 .boutonConso {
-    padding: 5vw;
+    padding: 4vw;
     background-color: rgb(76, 175, 80);
-    width: 25%;
+    width: 21%;
     font-size: 50px;
     border-radius: 50px;
 }

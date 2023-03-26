@@ -8,7 +8,7 @@ import { faChartColumn } from "@fortawesome/free-solid-svg-icons";
 
 function Composant() {
   return (
-    <div>
+    <div className="allBlock">
       <div className="blocCalendDomo">
         <Link to="/calendrier" className="linkStyle">
           <button className="boutonCalendrier">
