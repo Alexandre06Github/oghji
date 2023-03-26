@@ -78,3 +78,24 @@
       .room button {margin-right: 80px;}
         .add { display: flex;
             position: absolute; top: 3vh; left: 90vw;}
+
+            #iconeTemperature {
+                position: absolute;
+                top: 0;
+                margin-top: 7vh;
+                margin-left: 12vw;
+            }
+            
+            #titleTemperature {
+                text-align: center;
+                font-size: 2em;
+            }
+            
+            .containerTemperature {
+                margin-left: 10%;
+                width: 20vw;
+                text-align: left;
+                top: 0;
+                position: absolute;
+            padding-right: 30vw;
+            }           
