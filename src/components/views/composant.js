@@ -9,16 +9,19 @@ import { faChartColumn } from "@fortawesome/free-solid-svg-icons";
 function Composant() {
   return (
     <div className="allBlock">
+      <br></br>
       <div className="blocCalendDomo">
         <Link to="/calendrier" className="linkStyle">
           <button className="boutonCalendrier">
             <FontAwesomeIcon icon={faCalendar} />
+            <br></br>
             Calendrier
           </button>
         </Link>
         <Link to="/domotique" className="linkStyle">
           <button className="boutonDomotique">
             <FontAwesomeIcon icon={faHouseChimney} />
+            <br></br>
             Domotique
           </button>
         </Link>

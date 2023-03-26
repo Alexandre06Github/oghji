@@ -33,7 +33,7 @@ export default function Home() {
           />
       
       <Button
-            name="Bathroom"
+            name="Sdb"
             icon={<IconBath />}
             onClick={() => console.log("Salon button clicked")}
           />
