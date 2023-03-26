@@ -55,8 +55,7 @@
 
 .logo {
   align-self: flex-start;
+  position:absolute;
+  top: 0;
 }
 
-.room-button:hover {
-  background-color: #62bb41;
-}

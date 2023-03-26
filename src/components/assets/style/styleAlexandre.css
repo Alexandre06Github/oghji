@@ -11,7 +11,7 @@
     width: 21%;
     margin-right: 2vw;
     margin-bottom: 2vw;
-    font-size: 50px;
+    font-size: 30px;
     border-radius: 50px;
     }
     
@@ -19,7 +19,7 @@
     padding: 4vw;
     background-color: #F0F0F0;
     width: 21%;
-    font-size: 50px;
+    font-size: 30px;
     border-radius: 50px;
     }
     
@@ -29,7 +29,7 @@
     width: 21%;
     margin-right: 2vw;
     margin-bottom: 2vw;
-    font-size: 50px;
+    font-size: 30px;
     border-radius: 50px;
     }
     
@@ -37,7 +37,7 @@
     padding: 4vw;
     background-color:#F0F0F0;
     width: 21%;
-    font-size: 50px;
+    font-size: 30px;
     border-radius: 50px;
     }
     
@@ -58,7 +58,7 @@
     .boutonDomotique:hover,
     .boutonTarifHeure:hover,
     .boutonConso:hover {
-    background-color: #62bb41;
+    background-color: #8ae069;
 
     }
 
@@ -67,3 +67,9 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
+
+      .room { display: flex;
+        position: absolute; top: 3vh; left: 25vw;}
+      .room button {margin-right: 80px;}
+        .add { display: flex;
+            position: absolute; top: 3vh; left: 90vw;}
