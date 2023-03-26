@@ -1,5 +1,6 @@
 import Composant from "./composant";
 import "../assets/style/styleAlexandre.css";
+import "../assets/style/styleAlexandre.css";
 import Menu from "../assets/menu";
 import Button from "../button";
 import Gauge from "../Gauge";
@@ -41,6 +42,13 @@ export default function Home() {
         <Button
           name="Chambre"
           icon={<IconBedOutline />}
+          onClick={() => console.log("Salon button clicked")}
+        />
+      </div>
+      <div className="add">
+        <Button
+          name="Ajouter"
+          icon={<IconAddFill />}
           onClick={() => console.log("Salon button clicked")}
         />
       </div>
