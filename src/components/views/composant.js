@@ -11,7 +11,9 @@ import "../assets/style/styleAlexandre.css";
 function Composant() {
   return (
     <div className="allBlock">
+
       <div className="blocCalendDomo">
+
         <Link to="/calendrier" className="linkStyle">
           <button className="boutonCalendrier">
             <FontAwesomeIcon icon={faCalendar} />
@@ -19,6 +21,7 @@ function Composant() {
             Calendrier
           </button>
         </Link>
+
         <Link to="/domotique" className="linkStyle">
           <button className="boutonDomotique">
             <FontAwesomeIcon icon={faHouseChimney} />
@@ -29,6 +32,7 @@ function Composant() {
       </div>
 
       <div className="blocTarifConso">
+        
         <Link to="/tarifHeure" className="linkStyle">
           <button className="boutonTarifHeure">
             <FontAwesomeIcon icon={faClock} />
@@ -44,8 +48,7 @@ function Composant() {
           </button>
         </Link>
       </div>
-<div className="containerTemperature">
-
+      <div className="containerTemperature">
         <div id="iconeTemperature1">
           <h2 id="titleTemperature">Température</h2>
           <FontAwesomeIcon icon={faTemperatureFull} style fontSize={"4em"} />
@@ -67,9 +70,7 @@ function Composant() {
             <span> 18°C Chambre 1</span>
           </span>
         </div>
-
       </div>
-
     </div>
   );
 }
